@@ -199,6 +199,426 @@
       "tags": ["电商", "物流"],
       "weight": 92,
       "featured": false
+    },
+    {
+      "id": "pinduoduo",
+      "name": "拼多多",
+      "description": "社交电商平台，团购优惠",
+      "url": "https://www.pinduoduo.com",
+      "category": "shopping",
+      "tags": ["电商", "团购", "优惠"],
+      "weight": 88,
+      "featured": false
+    },
+    {
+      "id": "dazhongdianping",
+      "name": "大众点评",
+      "description": "本地生活服务点评平台",
+      "url": "https://www.dianping.com",
+      "category": "shopping",
+      "tags": ["美食", "团购", "本地生活"],
+      "weight": 85,
+      "featured": false
+    },
+    {
+      "id": "toutiao",
+      "name": "今日头条",
+      "description": "个性化资讯推荐平台",
+      "url": "https://www.toutiao.com",
+      "category": "media",
+      "tags": ["新闻", "资讯", "推荐"],
+      "weight": 90,
+      "featured": false
+    },
+    {
+      "id": "douyin",
+      "name": "抖音",
+      "description": "短视频分享平台",
+      "url": "https://www.douyin.com",
+      "category": "media",
+      "tags": ["短视频", "直播", "娱乐"],
+      "weight": 94,
+      "featured": true
+    },
+    {
+      "id": "neteasemusic",
+      "name": "网易云音乐",
+      "description": "音乐发现与分享平台",
+      "url": "https://music.163.com",
+      "category": "media",
+      "tags": ["音乐", "歌单", "社交"],
+      "weight": 88,
+      "featured": false
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "description": "全球最大的游戏数字发行平台",
+      "url": "https://store.steampowered.com",
+      "category": "media",
+      "tags": ["游戏", "平台", "数字发行"],
+      "weight": 90,
+      "featured": false
+    },
+    {
+      "id": "epicgames",
+      "name": "Epic Games",
+      "description": "游戏平台，每周免费游戏",
+      "url": "https://www.epicgames.com",
+      "category": "media",
+      "tags": ["游戏", "免费", "平台"],
+      "weight": 85,
+      "featured": false
+    },
+    {
+      "id": "douban",
+      "name": "豆瓣",
+      "description": "图书、电影、音乐评论社区",
+      "url": "https://douban.com",
+      "category": "media",
+      "tags": ["电影", "读书", "音乐", "社区"],
+      "weight": 87,
+      "featured": false
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "description": "全球流媒体娱乐平台",
+      "url": "https://www.netflix.com",
+      "category": "media",
+      "tags": ["电影", "剧集", "流媒体"],
+      "weight": 82,
+      "featured": false
+    },
+    {
+      "id": "khanacademy",
+      "name": "可汗学院",
+      "description": "免费在线教育平台",
+      "url": "https://www.khanacademy.org",
+      "category": "learning",
+      "tags": ["教育", "免费", "课程"],
+      "weight": 88,
+      "featured": false
+    },
+    {
+      "id": "zhihuishoudang",
+      "name": "智慧树",
+      "description": "中国大学MOOC平台",
+      "url": "https://www.zhihuishoudang.com",
+      "category": "learning",
+      "tags": ["MOOC", "大学课程", "在线学习"],
+      "weight": 80,
+      "featured": false
+    },
+    {
+      "id": "xuetangx",
+      "name": "学堂在线",
+      "description": "清华大学发起的在线教育平台",
+      "url": "https://www.xuetangx.com",
+      "category": "learning",
+      "tags": ["MOOC", "清华", "课程"],
+      "weight": 82,
+      "featured": false
+    },
+    {
+      "id": "w3schools",
+      "name": "W3Schools",
+      "description": "Web技术教程和参考手册",
+      "url": "https://www.w3schools.com",
+      "category": "learning",
+      "tags": ["编程", "Web", "教程"],
+      "weight": 92,
+      "featured": false
+    },
+    {
+      "id": "runoob",
+      "name": "菜鸟教程",
+      "description": "编程入门学习平台",
+      "url": "https://www.runoob.com",
+      "category": "learning",
+      "tags": ["编程", "教程", "入门"],
+      "weight": 90,
+      "featured": false
+    },
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "description": "免费编程学习平台",
+      "url": "https://www.freecodecamp.org",
+      "category": "learning",
+      "tags": ["编程", "免费", "实战"],
+      "weight": 93,
+      "featured": false
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "description": "算法题库和面试准备平台",
+      "url": "https://leetcode.cn",
+      "category": "dev",
+      "tags": ["算法", "面试", "编程"],
+      "weight": 94,
+      "featured": false
+    },
+    {
+      "id": "gitcode",
+      "name": "GitCode",
+      "description": "中国版代码托管平台",
+      "url": "https://gitcode.net",
+      "category": "dev",
+      "tags": ["代码", "开源", "代码托管"],
+      "weight": 80,
+      "featured": false
+    },
+    {
+      "id": "gitee",
+      "name": "Gitee",
+      "description": "代码托管和版本控制平台",
+      "url": "https://gitee.com",
+      "category": "dev",
+      "tags": ["代码", "开源", "国内"],
+      "weight": 88,
+      "featured": false
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "description": "Frontend Cloud部署平台",
+      "url": "https://vercel.com",
+      "category": "dev",
+      "tags": ["部署", "前端", "Serverless"],
+      "weight": 86,
+      "featured": false
+    },
+    {
+      "id": "dockerhub",
+      "name": "Docker Hub",
+      "description": "容器镜像仓库",
+      "url": "https://hub.docker.com",
+      "category": "dev",
+      "tags": ["Docker", "容器", "镜像"],
+      "weight": 85,
+      "featured": false
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "description": "API开发和测试工具",
+      "url": "https://www.postman.com",
+      "category": "dev",
+      "tags": ["API", "测试", "工具"],
+      "weight": 90,
+      "featured": false
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "description": "在线代码编辑器",
+      "url": "https://replit.com",
+      "category": "dev",
+      "tags": ["IDE", "在线", "协作"],
+      "weight": 83,
+      "featured": false
+    },
+    {
+      "id": "dribbble",
+      "name": "Dribbble",
+      "description": "设计师作品展示社区",
+      "url": "https://dribbble.com",
+      "category": "design",
+      "tags": ["设计", "UI", "灵感"],
+      "weight": 88,
+      "featured": false
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "description": "Adobe旗下的创意作品展示平台",
+      "url": "https://www.behance.net",
+      "category": "design",
+      "tags": ["设计", "创意", "作品集"],
+      "weight": 85,
+      "featured": false
+    },
+    {
+      "id": "icons8",
+      "name": "Icons8",
+      "description": "图标、插图、音效资源库",
+      "url": "https://icons8.com",
+      "category": "design",
+      "tags": ["图标", "素材", "插图"],
+      "weight": 82,
+      "featured": false
+    },
+    {
+      "id": "flaticon",
+      "name": "Flaticon",
+      "description": "免费图标资源下载",
+      "url": "https://www.flaticon.com",
+      "category": "design",
+      "tags": ["图标", "免费", "SVG"],
+      "weight": 84,
+      "featured": false
+    },
+    {
+      "id": "coolors",
+      "name": "Coolors",
+      "description": "配色方案生成工具",
+      "url": "https://coolors.co",
+      "category": "design",
+      "tags": ["配色", "设计", "工具"],
+      "weight": 80,
+      "featured": false
+    },
+    {
+      "id": "tinypng",
+      "name": "TinyPNG",
+      "description": "图片压缩工具",
+      "url": "https://tinypng.com",
+      "category": "tools",
+      "tags": ["图片压缩", "工具", "优化"],
+      "weight": 88,
+      "featured": false
+    },
+    {
+      "id": "translate",
+      "name": "Google翻译",
+      "description": "在线翻译服务",
+      "url": "https://translate.google.com",
+      "category": "tools",
+      "tags": ["翻译", "语言", "工具"],
+      "weight": 90,
+      "featured": false
+    },
+    {
+      "id": "runoobtool",
+      "name": "菜鸟工具",
+      "description": "在线编程工具集合",
+      "url": "https://c.runoob.com",
+      "category": "tools",
+      "tags": ["工具", "编程", "在线工具"],
+      "weight": 85,
+      "featured": false
+    },
+    {
+      "id": "jsonformatter",
+      "name": "JSON格式化",
+      "description": "在线JSON格式化工具",
+      "url": "https://jsonformatter.org",
+      "category": "tools",
+      "tags": ["JSON", "工具", "格式化"],
+      "weight": 80,
+      "featured": false
+    },
+    {
+      "id": "crxcavator",
+      "name": "Crx搜搜",
+      "description": "Chrome插件下载站",
+      "url": "https://www.crxsoso.com",
+      "category": "tools",
+      "tags": ["Chrome", "插件", "扩展"],
+      "weight": 82,
+      "featured": false
+    },
+    {
+      "id": "smallpdf",
+      "name": "SmallPDF",
+      "description": "PDF处理工具集",
+      "url": "https://smallpdf.com",
+      "category": "tools",
+      "tags": ["PDF", "工具", "转换"],
+      "weight": 84,
+      "featured": false
+    },
+    {
+      "id": "wechat",
+      "name": "微信",
+      "description": "即时通讯和社交平台",
+      "url": "https://weixin.qq.com",
+      "category": "social",
+      "tags": ["社交", "通讯", "支付"],
+      "weight": 97,
+      "featured": true
+    },
+    {
+      "id": "xiaohongshu",
+      "name": "小红书",
+      "description": "生活方式分享社区",
+      "url": "https://www.xiaohongshu.com",
+      "category": "social",
+      "tags": ["种草", "社区", "生活方式"],
+      "weight": 89,
+      "featured": false
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X",
+      "description": "社交新闻网络平台",
+      "url": "https://twitter.com",
+      "category": "social",
+      "tags": ["社交", "新闻", "实时"],
+      "weight": 86,
+      "featured": false
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "description": "社交新闻聚合和讨论平台",
+      "url": "https://www.reddit.com",
+      "category": "social",
+      "tags": ["社区", "讨论", "新闻"],
+      "weight": 83,
+      "featured": false
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "description": "游戏社区和语音聊天平台",
+      "url": "https://discord.com",
+      "category": "social",
+      "tags": ["社区", "语音", "游戏"],
+      "weight": 81,
+      "featured": false
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "description": "加密即时通讯应用",
+      "url": "https://telegram.org",
+      "category": "social",
+      "tags": ["通讯", "加密", "社交"],
+      "weight": 84,
+      "featured": false
+    },
+    {
+      "id": "yahoo",
+      "name": "Yahoo",
+      "description": "门户网站和搜索引擎",
+      "url": "https://www.yahoo.com",
+      "category": "search",
+      "tags": ["门户", "新闻", "搜索"],
+      "weight": 70,
+      "featured": false
+    },
+    {
+      "id": "yandex",
+      "name": "Yandex",
+      "description": "俄罗斯搜索引擎",
+      "url": "https://yandex.com",
+      "category": "search",
+      "tags": ["搜索", "俄罗斯", "工具"],
+      "weight": 72,
+      "featured": false
+    },
+    {
+      "id": "duckduckgo",
+      "name": "DuckDuckGo",
+      "description": "隐私保护搜索引擎",
+      "url": "https://duckduckgo.com",
+      "category": "search",
+      "tags": ["搜索", "隐私", "匿名"],
+      "weight": 78,
+      "featured": false
     }
   ]
 }
