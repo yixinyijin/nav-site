@@ -1,0 +1,5 @@
+# Robots.txt for 导航站
+User-agent: *
+Allow: /
+
+Sitemap: https://yoursite.com/sitemap.xml

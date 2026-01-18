@@ -1,0 +1,204 @@
+{
+  "categories": [
+    { "id": "search", "name": "搜索引擎", "icon": "🔍", "desc": "查找信息的入口" },
+    { "id": "social", "name": "社交媒体", "icon": "💬", "desc": "社交平台和社区" },
+    { "id": "tools", "name": "在线工具", "icon": "🛠️", "desc": "提高效率的工具集合" },
+    { "id": "design", "name": "设计资源", "icon": "🎨", "desc": "设计素材和灵感" },
+    { "id": "dev", "name": "开发工具", "icon": "💻", "desc": "程序员必备工具" },
+    { "id": "learning", "name": "学习教育", "icon": "📚", "desc": "在线学习和课程" },
+    { "id": "media", "name": "媒体娱乐", "icon": "🎬", "desc": "视频、音乐和游戏" },
+    { "id": "shopping", "name": "购物消费", "icon": "🛒", "desc": "在线购物平台" }
+  ],
+  "sites": [
+    {
+      "id": "google",
+      "name": "Google",
+      "description": "全球最大的搜索引擎，提供网页、图片、视频、地图等搜索服务",
+      "url": "https://www.google.com",
+      "category": "search",
+      "tags": ["搜索引擎", "工具"],
+      "weight": 100,
+      "featured": true
+    },
+    {
+      "id": "baidu",
+      "name": "百度",
+      "description": "全球最大的中文搜索引擎，提供搜索、地图、文库等服务",
+      "url": "https://www.baidu.com",
+      "category": "search",
+      "tags": ["搜索引擎", "中文"],
+      "weight": 99,
+      "featured": true
+    },
+    {
+      "id": "bing",
+      "name": "Bing",
+      "description": "微软旗下的搜索引擎，集成AI助手Copilot",
+      "url": "https://www.bing.com",
+      "category": "search",
+      "tags": ["搜索引擎", "AI"],
+      "weight": 80,
+      "featured": false
+    },
+    {
+      "id": "weibo",
+      "name": "微博",
+      "description": "中国最大的社交媒体平台，分享实时动态和热点话题",
+      "url": "https://www.weibo.com",
+      "category": "social",
+      "tags": ["社交", "热点"],
+      "weight": 95,
+      "featured": true
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "description": "中文问答社区，分享知识和见解",
+      "url": "https://www.zhihu.com",
+      "category": "social",
+      "tags": ["问答", "知识"],
+      "weight": 90,
+      "featured": true
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "全球最大的代码托管平台，开发者社区",
+      "url": "https://github.com",
+      "category": "dev",
+      "tags": ["代码", "开源", "社区"],
+      "weight": 100,
+      "featured": true
+    },
+    {
+      "id": "stackoverflow",
+      "name": "Stack Overflow",
+      "description": "程序员问答社区，解决编程问题",
+      "url": "https://stackoverflow.com",
+      "category": "dev",
+      "tags": ["编程", "问答"],
+      "weight": 95,
+      "featured": false
+    },
+    {
+      "id": "codepen",
+      "name": "CodePen",
+      "description": "前端代码分享和在线预览平台",
+      "url": "https://codepen.io",
+      "category": "dev",
+      "tags": ["前端", "代码演示"],
+      "weight": 85,
+      "featured": false
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "description": "免费高质量图片资源，可商用",
+      "url": "https://unsplash.com",
+      "category": "design",
+      "tags": ["图片", "免费", "商用"],
+      "weight": 90,
+      "featured": true
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "description": "在线协作UI设计工具",
+      "url": "https://www.figma.com",
+      "category": "design",
+      "tags": ["设计", "UI", "协作"],
+      "weight": 95,
+      "featured": false
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "description": "在线图形设计平台，模板丰富",
+      "url": "https://www.canva.com",
+      "category": "design",
+      "tags": ["设计", "模板"],
+      "weight": 88,
+      "featured": false
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "description": "一体化协作和笔记工具",
+      "url": "https://www.notion.so",
+      "category": "tools",
+      "tags": ["笔记", "协作", "文档"],
+      "weight": 92,
+      "featured": true
+    },
+    {
+      "id": "removebg",
+      "name": "Remove.bg",
+      "description": "AI自动抠图工具",
+      "url": "https://www.remove.bg",
+      "category": "tools",
+      "tags": ["抠图", "AI", "图片处理"],
+      "weight": 85,
+      "featured": false
+    },
+    {
+      "id": "md5",
+      "name": "MD5在线加密",
+      "description": "提供MD5、SHA、AES等多种加密工具",
+      "url": "https://md5.cn",
+      "category": "tools",
+      "tags": ["加密", "工具"],
+      "weight": 80,
+      "featured": false
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "description": "全球知名在线课程平台，提供名校课程",
+      "url": "https://www.coursera.org",
+      "category": "learning",
+      "tags": ["课程", "MOOC", "名校"],
+      "weight": 90,
+      "featured": false
+    },
+    {
+      "id": "bili",
+      "name": "Bilibili",
+      "description": "国内领先的年轻人文化社区和视频平台",
+      "url": "https://www.bilibili.com",
+      "category": "media",
+      "tags": ["视频", "弹幕", "二次元"],
+      "weight": 98,
+      "featured": true
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "description": "全球最大的视频分享平台",
+      "url": "https://www.youtube.com",
+      "category": "media",
+      "tags": ["视频", "音乐", "直播"],
+      "weight": 96,
+      "featured": true
+    },
+    {
+      "id": "taobao",
+      "name": "淘宝",
+      "description": "国内最大的综合性电商平台",
+      "url": "https://www.taobao.com",
+      "category": "shopping",
+      "tags": ["电商", "购物"],
+      "weight": 95,
+      "featured": true
+    },
+    {
+      "id": "jd",
+      "name": "京东",
+      "description": "正品保障的综合性电商平台",
+      "url": "https://www.jd.com",
+      "category": "shopping",
+      "tags": ["电商", "物流"],
+      "weight": 92,
+      "featured": false
+    }
+  ]
+}
